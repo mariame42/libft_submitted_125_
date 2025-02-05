@@ -4,7 +4,6 @@ my first own library -> first project in 42 -> written in 'c'
 ## Libft Functions Overview
 
 ### Part 1: Standard C Library Functions (Reimplemented)
-|------------------|------------------------|
 | Existing Function| Custom Implementation  |
 |------------------|------------------------|
 | isalpha          | ft_isalpha             |
@@ -30,10 +29,8 @@ my first own library -> first project in 42 -> written in 'c'
 | atoi             | ft_atoi                |
 | calloc           | ft_calloc              |
 | strdup           | ft_strdup              |
-|------------------|------------------------|
 
 ### Part 2: Additional Utility Functions
-|-----------------|--------------------------------------------------------------------------|
 | Function        | Description                                                              |
 |-----------------|--------------------------------------------------------------------------|
 | ft_substr       | Extracts a substring from a string.                                      |
@@ -47,10 +44,8 @@ my first own library -> first project in 42 -> written in 'c'
 | ft_putstr_fd    | Writes a string to a file descriptor.                                    |
 | ft_putendl_fd   | Writes a string followed by a newline to a file descriptor.              |
 | ft_putnbr_fd    | Writes an integer to a file descriptor.                                  |
-|-----------------|--------------------------------------------------------------------------|
 
 ### Part 3: Bonus - Linked List Functions
-|-----------------|--------------------------------------------------------------------------------|
 | Function        | Description                                                                    |
 |-----------------|--------------------------------------------------------------------------------|
 | ft_lstnew       | Creates a new list node.                                                       |
@@ -62,4 +57,3 @@ my first own library -> first project in 42 -> written in 'c'
 | ft_lstclear     | Deletes and frees an entire list.                                              |
 | ft_lstiter      | Applies a function to each node of a list.                                     |
 | ft_lstmap       | Creates a new list by applying a function to each node of an existing list.    |
-|-----------------|--------------------------------------------------------------------------------|
